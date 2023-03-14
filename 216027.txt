@@ -1,0 +1,51 @@
+mkdir SI_2023_lab1_21607 - kreiranje repozitrorim
+cd SI_2023_lab1_216027 - vleguvanje vo nego
+git init
+touch README - kreiranje na readme
+nano README - editiranje na readme
+git add README - dodavanje na readme
+git log - proveruvanje log
+git status - proveruvanje status
+touch  SILab1.java - kreiranje na fajl
+nano  SILab1.java - editiranje na fail
+git add SILab1.java- dodavanje na fajl
+git commit -m "Add java class" - pravenje komit
+git status - proveruvanje status
+git push -u origin master - push na github
+git branch bug1 - kreiranje na granka 1
+git branch bug2- kreiranje na granka 2
+git branch bug3 - kreiranje na granka 3
+git checkout bug1 - prefrluvanje na granka 1
+nano SILab1.java - fix bug 1
+git add SILab1.java - dodavanje
+git commit -m "Fix wrong loop for reading" - pravenje komit
+git status - proveruvanje status
+git checkout bug2 - prefrluvanje na granka 2
+git branch - proveruvanje na koja granka sum
+nano SILab1.java - fix bug 2
+git add SILab1.java - dodavanje na fajl
+git commit -m "Fix wrong condition in filterOddNumbers" - pravenje komit
+git checkout bug3 - prefrluvanje na granka 3
+nano SILab1.java - fix bug 3
+git add SILab1.java - dodavanje na fajl
+git commit -m "Fix method sumEvenNumbers" - pravenje komit
+git push -u origin master - push na github
+git checkout master - prefrluvanje na granka master
+git merge bug1 - Ne se sluci nikakov konflikt 
+git push -u origin master - push na github
+git merge bug2- Ne se sluci nikakov konflikt
+git push -u origin master - push na github
+git checkout bug3 - prefrluvanje na granka 3
+git rebase master - rebase na granka 3 so master
+git checkout master - prefrluvanje na master
+git merge bug3 - Ne se sluci nikakov konflikt
+git push -u origin master - push na github
+touch logs.txt - kreiranje na logs
+git log - proveruvanje na logovi i kopiranje
+nano logs.txt - editiranje na logs
+touch 216027.txt - kreiranje na fajl
+nano 216027.txt- editiranje na fajlot
+git add --all - dodavanje na 216027 i logs
+git commit -m "Final commit"
+git push -u origin master - push na github
+

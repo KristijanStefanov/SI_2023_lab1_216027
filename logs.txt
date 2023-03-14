@@ -1,0 +1,31 @@
+
+commit 61980a181f2a194d1ab49e97ed5537be4e54ff4f (HEAD -> master, origin/master, bug3)
+Author: KristijanStefanov <107227892+KristijanStefanov@users.noreply.github.com>
+Date:   Tue Mar 14 19:07:12 2023 +0100
+
+    Fix method sumEvenNumbers
+
+commit a80c592053e8ed6b8d23555bb2b98e05d2d13b3c
+Merge: a5cccef 5ddbdbe
+Author: KristijanStefanov <107227892+KristijanStefanov@users.noreply.github.com>
+Date:   Tue Mar 14 19:07:49 2023 +0100
+
+    Merge branch 'bug2'
+
+commit 5ddbdbec81f2423fb37f0916a22c0e8666e488c0 (bug2)
+Author: KristijanStefanov <107227892+KristijanStefanov@users.noreply.github.com>
+Date:   Tue Mar 14 19:06:19 2023 +0100
+
+    Fix wrong condition in filterOddNumbers
+
+commit a5cccef207f0c49c050c0a400689d368cdee2ac4 (bug1)
+Author: KristijanStefanov <107227892+KristijanStefanov@users.noreply.github.com>
+Date:   Tue Mar 14 19:04:38 2023 +0100
+
+    Fix wrong loop for reading
+
+commit e3247e7d02a2c14cbf183071f85bc066846d70d2
+Author: KristijanStefanov <107227892+KristijanStefanov@users.noreply.github.com>
+Date:   Tue Mar 14 19:02:32 2023 +0100
+
+    Add java class
